@@ -1,0 +1,101 @@
+@import "px2rem";
+@import "reset";
+$designWidth:37.5px;
+.wraper {
+    width: px2rem(375px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+// 头部区域
+.header {
+    display: flex;
+    width: px2rem(375px);
+    height: px2rem(50px);
+    background-color: red;
+    border-bottom: 1px solid rgb(41, 40, 40);
+    flex-direction: column;
+    .title {
+        width: px2rem(375px);
+        height: px2rem(50px);
+        background-color: red;
+    }
+}
+
+.swiper-container {
+    width: px2rem(375px);
+    height: px2rem(250px);
+    font-size: px2rem(14px);
+    background-color: crimson;
+    .swiper-slide {
+        font-size: px2rem(14px);
+    }
+}
+
+.spa {
+    // 填充区域
+    height: px2rem(5px);
+    width: px2rem(375px);
+}
+
+// 主体区域
+.main {
+    width: px2rem(375px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+    .nav {
+        // 四个圆
+        width: px2rem(375px);
+        height: px2rem(100px);
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        dl {
+            // 圆的内容
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            dd {
+                width: 100%;
+                height: px2rem(20px);
+                text-align: center;
+                font-size: px2rem(12px);
+            }
+            dt {
+                margin: 0 auto;
+                width: px2rem(80px);
+                height: px2rem(80px);
+                border-radius: 50%;
+                background-color: red;
+            }
+        }
+    }
+    .con {
+        display: flex;
+        width: px2rem(375px);
+        height: px2rem(100px);
+        .c-l {
+            display: flex;
+            width: px2rem(275px);
+            height: px2rem(100px);
+            img {
+                flex: 1
+            }
+        }
+        .c-r {
+            width: px2rem(100px);
+            height: px2rem(100px);
+        }
+    }
+}
+
+// 尾部区域
+.footer {
+    overflow: hidden;
+    width: px2rem(375px);
+    height: px2rem(50px);
+    background-color: aqua;
+}

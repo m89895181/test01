@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./flexible-master/css/index.min.css">
+    <script src="./flexible-master/js/flexible.js"></script>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./swipe/css/swiper.min.css">
+    <script src="./swipe/js/swiper.js"></script>
+</head>
+
+<body>
+    <div class="wraper">
+
+        <div class="header">
+            <div class="title"></div>
+        </div>
+        <!-- header -->
+        <div class="main">
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">111111</div>
+                    <div class="swiper-slide">222222</div>
+                    <div class="swiper-slide">333333</div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <!-- container -->
+            <div class="spa"></div>
+            <!-- spa -->
+            <div class="nav">
+                <dl>
+                    <dt class=""></dt>
+                    <dd>1</dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>2</dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>3</dd>
+                </dl>
+                <dl>
+                    <dt></dt>
+                    <dd>4</dd>
+                </dl>
+            </div>
+            <!-- nav -->
+            <div class="spa" style="background-color: #ccc;border-bottom:1px solid slategray;"></div>
+            <!-- spa -->
+            <div class="con">
+                <div class="c-l"><img src="./jin1.png" alt=""></div>
+                <!-- c-l -->
+                <div class="c-r">
+                    <canvas width="300" height="300"></canvas>
+                </div>
+                <!-- c-r -->
+            </div>
+            <!-- con -->
+            <div class="con">
+                <div class="c-l"><img src="./jin2.png" alt="" srcset=""></div>
+                <!-- c-l -->
+                <div class="c-r">
+                    <canvas width="300" height="300"></canvas>
+                </div>
+                <!-- c-r -->
+            </div>
+            <!-- con -->
+            <div class="con">
+                <div class="c-l"><img src="./jin1.png" alt=""></div>
+                <!-- c-l -->
+                <div class="c-r">
+                    <canvas width="300" height="300"></canvas>
+                </div>
+                <!-- c-r -->
+            </div>
+            <!-- con -->
+            <div class="con">
+                <div class="c-l"><img src="./jin2.png" alt=""></div>
+                <!-- c-l -->
+                <div class="c-r">
+                    <canvas width="300" height="300"></canvas>
+                </div>
+                <!-- c-r -->
+            </div>
+            <!-- con -->
+
+            <div class="con">
+                <div class="c-l"><img src="./jin1.png" alt=""></div>
+                <!-- c-l -->
+                <div class="c-r">
+                    <canvas width="300" height="300"></canvas>
+                </div>
+                <!-- c-r -->
+            </div>
+            <!-- con -->
+            <div class="con">
+                <div class="c-l"><img src="./jin2.png" alt=""></div>
+                <!-- c-l -->
+                <div class="c-r">
+                    <canvas width="300" height="300"></canvas>
+                </div>
+                <!-- c-r -->
+            </div>
+            <!-- con -->
+
+        </div>
+        <!-- .main -->
+
+        <div class="spa" style="background-color: #ccc;border-bottom:1px solid slategray;"></div>
+        <!-- spa -->
+
+        <div class="footer">
+
+        </div>
+        <!-- footer -->
+    </div>
+    <!-- wrapp -->
+
+
+
+    <script>
+        var Swiper = new Swiper('.swiper-container', {
+            loop: true, // 无缝轮播
+            keyboard: true, // 键盘事件
+            pagination: { // 分页器
+                el: ".swiper-pagination",
+                clickable: true, // 是否可以点击小圆点
+            },
+            navigation: { // 左右播
+                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-button-next'
+            },
+            speed: 500, // 速度
+            scrollbar: { // 滚动条
+                el: '.swiper-scrollbar'
+            },
+            autoplay: true,
+            //slidesPerView: 3, // 网格分布
+            //centeredSlides: true, // 是否居中
+        })
+    </script>
+    <script src="./demo.js"></script>
+</body>
+
+</html>
